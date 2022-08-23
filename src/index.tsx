@@ -1,7 +1,5 @@
 import React, { CSSProperties, ReactNode } from 'react';
 import { CopyToClipboard } from 'react-copy-to-clipboard';
-// import XMLViewer from './xmlViem';
-
 interface Props {
   title?: string | ReactNode;
   value: string;
@@ -43,7 +41,6 @@ export default (props: Props) => {
         </CopyToClipboard>
       </div>
       <pre style={{ background: '#efefef', overflow: 'auto', ...centerStyle }} id="copy-target">
-        {/* <XMLViewer xml={formateXml(value)} /> */}
         {formateXml(value)}
       </pre>
     </div>
