@@ -1,6 +1,6 @@
 {
   "name": "xml-view-react",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "一个基于xml格式处理和展示的组件",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
