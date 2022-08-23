@@ -4,6 +4,10 @@
   "description": "一个基于xml格式处理和展示的组件",
   "main": "lib/index.js",
   "types": "./lib/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/is-cool/xml-view-react"
+  },
   "scripts": {
     "start": "NODE_ENV=development webpack-cli serve --config ./webpack/dev.config.js",
     "build": "babel src --out-dir lib && tsc"
